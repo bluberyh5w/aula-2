@@ -1,6 +1,17 @@
-﻿Compilação iniciada...
-1>------ Compilação iniciada: Projeto: loopvs, Configuração: Debug x64 ------
-1>loop.c
-1>loopvs.vcxproj -> C:\Users\renan\source\repos\loopvs\x64\Debug\loopvs.exe
-========== Compilação: 1 bem-sucedida, 0 com falha, 0 atualizada, 0 ignorada ==========
-========== Compilação começou em 16:05 e levou 00,841 segundos ==========
+#include <stdio.h>
+
+int main()
+{
+	int i = 1;
+	int n1[10];
+	int n2;
+
+	printf("qual tabuada vc gostaria de saber ?\n");
+	scanf_s("%d", &n2);
+
+		while (i<10)
+	{
+			n1[i] = i * n2;
+			printf("n1[%d]=%d\n",i,n1[i]);
+			i++;
+	}
