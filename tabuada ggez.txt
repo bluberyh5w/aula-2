@@ -1,0 +1,6 @@
+﻿Compilação iniciada...
+1>------ Compilação iniciada: Projeto: loopvs, Configuração: Debug x64 ------
+1>loop.c
+1>loopvs.vcxproj -> C:\Users\renan\source\repos\loopvs\x64\Debug\loopvs.exe
+========== Compilação: 1 bem-sucedida, 0 com falha, 0 atualizada, 0 ignorada ==========
+========== Compilação começou em 16:05 e levou 00,841 segundos ==========
